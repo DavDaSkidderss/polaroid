@@ -1,38 +1,3 @@
-getgenv().Polaroid = {
-    ['KOCheck'] = true,
-    ['Resolver'] = true,
-    ['Silent Aim'] = {
-        ['Enabled'] = true,
-        ['Prediction'] = 0.2,
-        ['Part'] = "HumanoidRootPart",
-        ['EnableJumpPart'] = true,
-        ['JumpPart'] = "Head",
-        ['Sync Camlock'] = true,
-        ['Field Of View'] = {
-            ['Visible'] = true,
-            ['Color'] = Color3.new(255, 255, 255),
-            ['Radius'] = 55,
-            ['Transparency'] = 0.07
-        },
-    },
-    ['Camlock'] = {
-        ['Enabled'] = true,
-        ['Keybind'] = "C",
-        ['Prediction'] = 0.2,
-        ['Part'] = "HumanoidRootPart",
-        ['Key'] = "Q",
-        ['EnableJumpPart'] = true,
-        ['JumpPart'] = "Head",
-        ['Easing'] = Enum.EasingStyle.Exponential,
-        ['Smoothness'] = 0.04,
-        ['Field Of View'] = {
-            ['Visible'] = true,
-            ['Color'] = Color3.new(121, 255, 255),
-            ['Radius'] = 25,
-            ['Transparency'] = 0.07
-        },
-    },
-}
 
 local players = game.Players
 local lp = players.LocalPlayer
